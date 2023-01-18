@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 565.78 519.62">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="34.82" y1="154.99" x2="530.96" y2="364.63" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d00ff"/>
+      <stop offset=".16" stop-color="#0d00f4"/>
+      <stop offset=".43" stop-color="#0d00d8"/>
+      <stop offset=".79" stop-color="#0d00ac"/>
+      <stop offset="1" stop-color="#0d008e"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="169.03" y1="259.81" x2="396.76" y2="259.81" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ed1c24"/>
+      <stop offset=".17" stop-color="#e21920"/>
+      <stop offset=".45" stop-color="#c61217"/>
+      <stop offset=".82" stop-color="#9a0609"/>
+      <stop offset="1" stop-color="#820002"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-3" d="m369.05,0h-172.31c-39.51,0-76.02,21.08-95.77,55.29L14.82,204.51c-19.75,34.22-19.75,76.37,0,110.59l86.15,149.22c19.75,34.22,56.26,55.29,95.77,55.29h172.31c39.51,0,76.02-21.08,95.77-55.29l86.15-149.22c19.75-34.22,19.75-76.37,0-110.59l-86.15-149.22C445.06,21.08,408.55,0,369.05,0Z"/>
+  <path class="cls-2" d="m341.69,103.92h-117.6c-19.31,0-37.15,10.3-46.8,27.02l-58.8,101.85c-9.65,16.72-9.65,37.32,0,54.04l58.8,101.85c9.65,16.72,27.49,27.02,46.8,27.02h117.6c19.31,0,37.15-10.3,46.8-27.02l58.8-101.85c9.65-16.72,9.65-37.32,0-54.04l-58.8-101.85c-9.65-16.72-27.49-27.02-46.8-27.02Z"/>
+  <path class="cls-1" d="m319.99,155.88h-74.19c-14.17,0-27.27,7.56-34.35,19.83l-37.1,64.25c-7.09,12.27-7.09,27.4,0,39.67l37.1,64.25c7.09,12.27,20.18,19.83,34.35,19.83h74.19c14.17,0,27.27-7.56,34.35-19.83l37.1-64.25c7.09-12.27,7.09-27.4,0-39.67l-37.1-64.25c-7.09-12.27-20.18-19.83-34.35-19.83Z"/>
+</svg>
