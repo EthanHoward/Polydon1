@@ -6,7 +6,7 @@ function NavBar(): ReactElement {
   return (
     <>
         <nav
-          className="px-2 py-2 bg-white dark:bg-neutral-500 dark:text-white text-black text-center flex justify-between items-center drop-shadow-lg float-center ">
+          className="px-2 py-2 bg-white dark:bg-zinc-800 dark:text-white text-black text-center flex justify-between items-center drop-shadow-lg float-center ">
           <div className={" flex items-center"}>
             <div><img src="/PDI.svg" alt="Polydon Industries Logo" className="h-16 w-16 inline-block"/></div>
             <div><h1 className="pl-5 text-center font-bold text-xl md:text-2xl lg:text-4xl xl:text-4xl">Polydon Industries</h1></div>
