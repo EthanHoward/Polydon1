@@ -1,15 +1,24 @@
-import { Inter } from '@next/font/google'
-import Head from 'next/head'
+import {Roboto} from '@next/font/google'
 import HeadDefs from '../components/HeadDefs'
 import NavBar from '../components/Navbar'
+import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ['latin'] })
+Roboto({
+  weight: "400",
+  subsets: ['latin'],
+})
 
 export default function Home() {
   return (
     <>
       <HeadDefs title={"Polydon Industries - Home"}/>
-      <NavBar hamburgerItems={[]}/>
+      <div className="bg-white dark:bg-neutral-500 w-screen max-w-100 overflow-x-hidden min-h-fit">
+        <NavBar/>
+        <div className="bg-white dark:bg-neutral-500">
+          &nbsp; {/* Removing this &nbsp; will cause the drop-shadow to not render because... idk, CSS? */}
+        </div>
+        <Footer/>
+      </div>
     </>
   )
 }

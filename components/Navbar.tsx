@@ -1,21 +1,19 @@
-import { ReactElement } from "react";
+/* eslint-disable @next/next/no-img-element */
+import React, {ReactElement} from "react";
+import ThemeToggler from "@/components/ThemeToggler";
 
-interface IProps {
-  hamburgerItems: []
-}
-
-function NavBar({ hamburgerItems }: IProps): ReactElement {
-
+function NavBar(): ReactElement {
   return (
     <>
-      <div>
-        <nav className="px-2 py-2 dark:bg-slate-900 dark:text-white text-black flex text-center">
-          <div className="text-center flex">
-            <img src="/PDI.svg" alt="Polydon Industries Logo" className="h-16 w-16 inline-block" />
-            <h1 className="text-center font-bold xl:text-3xl">Polydon Industries</h1>
+        <nav
+          className="px-2 py-2 bg-white dark:bg-neutral-500 dark:text-white text-black text-center flex justify-between items-center drop-shadow-lg float-center ">
+          <div className={" flex items-center"}>
+            <div><img src="/PDI.svg" alt="Polydon Industries Logo" className="h-16 w-16 inline-block"/></div>
+            <div><h1 className="pl-5 text-center font-bold text-xl md:text-2xl lg:text-4xl xl:text-4xl">Polydon Industries</h1></div>
           </div>
+          <div className={" flex items-center"}></div>
+          <div className={""}><ThemeToggler/></div>
         </nav>
-      </div>
     </>
   )
 }
