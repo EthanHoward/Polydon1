@@ -3,7 +3,7 @@ import HeadDefs from '../components/HeadDefs'
 import NavBar from '../components/Navbar'
 import Footer from "@/components/Footer";
 
-Roboto({
+const roboto = Roboto({
   weight: "400",
   subsets: ['latin'],
 })
