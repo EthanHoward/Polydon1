@@ -1,3 +1,10 @@
+/*
+* Authored by Ethan Howard,
+* Copyright Polydon Industries 2023
+* All Rights Reserved
+*
+* Theme Toggler module, adds small icon and theme toggling in tandem with ThemeProvider in _app.tsx
+* */
 import {useTheme} from "next-themes";
 import {useEffect, useState} from "react";
 import {NextPage} from "next";

@@ -1,7 +1,16 @@
-import {Roboto} from '@next/font/google'
+/*
+* Authored by Ethan Howard,
+* Copyright Polydon Industries 2023
+* All Rights Reserved
+*
+* Home page of PDI website
+* */
+import {Content, Roboto} from '@next/font/google'
 import HeadDefs from '../components/HeadDefs'
 import NavBar from '../components/Navbar'
 import Footer from "@/components/Footer";
+import React from "react";
+import ContentPage from "@/components/ContentPage";
 
 const roboto = Roboto({
   weight: "400",
@@ -11,14 +20,9 @@ const roboto = Roboto({
 export default function Home() {
   return (
     <>
-      <HeadDefs title={"Polydon Industries - Home"}/>
-      <div className="bg-white dark:bg-zinc-800 w-screen max-w-100 overflow-x-hidden min-h-fit">
-        <NavBar/>
-        <div className="bg-white dark:bg-zinc-800">
-          &nbsp; {/* Removing this &nbsp; will cause the drop-shadow to not render because... idk, CSS? */}
-        </div>
-        <Footer/>
-      </div>
+      <ContentPage title={"Polydon Industries - Home"}>
+      
+      </ContentPage>
     </>
   )
 }

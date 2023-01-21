@@ -1,3 +1,10 @@
+/*
+* Authored by Ethan Howard,
+* Copyright Polydon Industries 2023
+* All Rights Reserved
+*
+* Staging Development server for PDI site, NOT TO BE USED IN PRODUCTION, EVER.
+* */
 const express = require('express');
 const next = require('next');
 

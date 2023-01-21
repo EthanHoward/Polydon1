@@ -1,3 +1,10 @@
+/*
+* Authored by Ethan Howard,
+* Copyright Polydon Industries 2023
+* All Rights Reserved
+*
+* Standardised NavBar for whole site, stores a theme toggler, editing this file will globally amend the navbar
+* */
 /* eslint-disable @next/next/no-img-element */
 import React, {ReactElement} from "react";
 import ThemeToggler from "@/components/ThemeToggler";

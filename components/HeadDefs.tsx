@@ -1,3 +1,10 @@
+/*
+* Authored by Ethan Howard,
+* Copyright Polydon Industries 2023
+* All Rights Reserved
+*
+* This defines the <head> of all pages it is used in, stores arbitrary metadata and title which removes code duplication in each page.
+* */
 import Head from "next/head"
 import { ReactElement } from "react"
 

@@ -1,3 +1,10 @@
+/*
+* Authored by Ethan Howard,
+* Copyright Polydon Industries 2023
+* All Rights Reserved
+*
+* Deprecated, DID log to console, unfortunately on the server. Was intended for client side to look... fancy.
+* */
 function PDIConsoleLog() {
   console.log(`
 %cCopyright %cPolydon %cIndustries %c2023. All Rights Reserved.
