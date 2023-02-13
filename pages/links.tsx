@@ -1,3 +1,10 @@
+/*
+* Authored by Ethan Howard,
+* Copyright Polydon Industries 2023
+* All Rights Reserved
+*
+* Links page for PDI website, only for development purposes
+* */
 import {NextPage} from "next";
 import React from "react";
 import ContentPage from "@/components/ContentPage";
