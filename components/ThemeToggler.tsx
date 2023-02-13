@@ -10,21 +10,21 @@ import {useEffect, useState} from "react";
 import {NextPage} from "next";
 
 const ThemeToggler: NextPage = () => {
-  const [mounted, setMounted] = useState(false);
-  const {theme, setTheme} = useTheme();
-  
-  useEffect(() => setMounted(true), []);
-  if (!mounted) return null;
-  else return (
-    <>
-      <button
-        className="material-symbols-outlined"
-        onClick={() => setTheme(theme === "dark" ? "light" : "dark")} // opposite so it toggles, if it was the same, light ? light : dark, it'd never swap
-      >
-        {theme === "light" ? "light_mode" : "dark_mode"}
-      </button>
-    </>
-  )
+    const [mounted, setMounted] = useState(false);
+    const {theme, setTheme} = useTheme();
+
+    useEffect(() => setMounted(true), []);
+    if (!mounted) return null;
+    else return (
+        <>
+            <button
+                className="material-symbols-outlined"
+                onClick={() => setTheme(theme === "dark" ? "light" : "dark")} // opposite so it toggles, if it was the same, light ? light : dark, it'd never swap
+            >
+                {theme === "light" ? "light_mode" : "dark_mode"}
+            </button>
+        </>
+    )
 }
 
 

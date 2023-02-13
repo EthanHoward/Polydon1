@@ -6,7 +6,7 @@
 * Deprecated, DID log to console, unfortunately on the server. Was intended for client side to look... fancy.
 * */
 function PDIConsoleLog() {
-  console.log(`
+    console.log(`
 %cCopyright %cPolydon %cIndustries %c2023. All Rights Reserved.
 
 %c######    #####   ###      ##   ##  ######    #####   ###  ##

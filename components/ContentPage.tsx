@@ -11,19 +11,19 @@ import Navbar from "@/components/Navbar";
 import HeadDefs from "@/components/HeadDefs";
 
 type Props = {
-  children?: ReactNode | undefined;
-  title?: string;
+    children?: ReactNode | undefined;
+    title?: string;
 }
 
 function ContentPage({children, title}: Props): React.ReactElement {
-  return (
-    <>
-      <HeadDefs title={title ? title : "Polydon Industries"}/>
-      <Navbar/>
-      {children}
-      <Footer/>
-    </>
-  )
+    return (
+        <>
+            <HeadDefs title={title ? title : "Polydon Industries"}/>
+            <Navbar/>
+            {children}
+            <Footer/>
+        </>
+    )
 }
 
 export default ContentPage

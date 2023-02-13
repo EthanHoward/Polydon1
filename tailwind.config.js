@@ -14,6 +14,7 @@ module.exports = {
       colors: {
         "PDIRED": "#E91920",
         "PDIBLUE": "#2500FF",
+        "DARKPDIBLUE": "#0D0099",
       }
     },
   },
